@@ -6,7 +6,7 @@
 
 # the directory and the name of the system-under-testing
 sutdir=../..
-sut=${sutdir}/nedfa.py
+sut=${sutdir}/problem3.py
 
 case x"$1"x in
 xx) ;;
