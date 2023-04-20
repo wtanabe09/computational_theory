@@ -4,8 +4,8 @@ import sys #パイプでcatから受け取るため
 read_data = sys.stdin.read()
 data = read_data.split('\n')
 
-state = int((data[0].split(' '))[0]) # 状態数
-sigma = list(data[1].split(' ')) # index = [0, 1]
+state = int((data[0].split())[0]) # 状態数
+sigma = list(data[1]) # index = [0, 1]
 
 delta = [] # i = 0, 1, ..., n_state, j = 0, 1
 for i in range(state): # i = 0, 1, 2?
