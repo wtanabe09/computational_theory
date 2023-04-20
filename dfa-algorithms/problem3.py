@@ -37,8 +37,7 @@ while True:
   else:
     break
 
-# 受理状態がマークされていたらYes，されていなかったらNo
 if any(x in marked_list for x in not_accept_state):
-    print('Yes')
-else:
     print('No')
+else:
+    print('Yes')

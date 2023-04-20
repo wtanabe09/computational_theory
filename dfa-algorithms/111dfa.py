@@ -44,7 +44,6 @@ for state in range(1, n_state):
 
 reachable_from_current_state = get_reachable(delta, state)
 
-# 受理状態がマークされていたらYes，されていなかったらNo
 if any(x in reachable_from_current_state for x in final_state):
     print('Yes')
     sys.exit()
